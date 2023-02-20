@@ -1,0 +1,116 @@
+.login-bg {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ececec;
+  flex-direction: column;
+}
+.BG {
+  width: 100%;
+  height: auto;
+  /* padding: 164px 124px 23px 127px; */
+  object-fit: contain;
+}
+.left-img {
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+}
+.img-right {
+  width: 400px;
+}
+.right-box {
+  border-radius: 0px 35px 35px 0px;
+  /* background-image: url('assets/images/white-bg.png');
+    background-repeat: no-repeat;
+    background-size: 709px;
+    padding: 67px 0;
+    background-position-x: 146px;
+    background-position-y: 45px; */
+}
+
+.img-txt {
+  border-radius: 35px 0px 0px 35px;
+}
+.img-logo {
+  width: 100px;
+}
+.login-text {
+  font-family: "Lato";
+  font-size: 14px;
+  margin-top: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+.Login-to-Your-Accoun {
+  margin: 10px 0px 10px 0px;
+  font-family: "Lato";
+  font-size: 21px;
+  font-weight: 900;
+}
+.email-input {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 12px 15px;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1);
+  border: solid 1px #dddddd;
+  background-color: var(--colors-white-100);
+}
+.pass-input {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 12px 15px;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1);
+  border: solid 1px #dddddd;
+  background-color: var(--colors-white-100);
+}
+.input-icon {
+  position: absolute;
+  right: 20px;
+  top: 11px;
+}
+.login-btn,
+.signup-btn {
+  height: 40px;
+  width: 100%;
+  border: 0;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 6px 0px 5px 0px;
+  padding: 10px 108px 11px;
+  object-fit: contain;
+  border-radius: 10px;
+  background-color: #ffda00;
+}
+.forgot {
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #999999;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 320px) and (max-width: 900px) {
+  .right-box {
+    border-radius: 35px;
+  }
+  .img-txt {
+    border-radius: 35px 35px 0px 0px;
+  }
+}

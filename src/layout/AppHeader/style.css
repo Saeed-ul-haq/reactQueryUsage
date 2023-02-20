@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  min-height: 75px;
+  position: sticky;
+  top: 0px;
+  z-index: 15;
+  width: 100%;
+}
+.user-email {
+  color: white;
+  font-size: large;
+  margin-left: 5px;
+}

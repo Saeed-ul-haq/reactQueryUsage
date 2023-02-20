@@ -1,0 +1,153 @@
+:root {
+  --primaryColor: #8c1007;
+  --primaryBgColor: #8c1007;
+}
+
+.primary-color {
+  color: var(--primaryColor);
+}
+.primary-bg {
+  background: var(--primaryBgColor) !important;
+}
+.ant-menu-inline .ant-menu-item::after {
+  border-right: 4px solid #edb801 !important;
+}
+.ant-menu {
+  background: var(--primaryColor) !important;
+  color: white !important;
+}
+/* background-color: rgba(186, 186, 186, 0.1); */
+
+.ant-menu-item:hover,
+.ant-menu-item-active {
+  background-color: rgba(186, 186, 186, 0.1) !important;
+  color: #edb801 !important;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background: var(--primaryBgColor) !important;
+  background-color: rgba(186, 186, 186, 0.1) !important;
+  color: #edb801 !important;
+}
+
+.ant-menu-submenu:hover
+  > .ant-menu-submenu-title
+  > .ant-menu-submenu-expand-icon,
+.ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-arrow {
+  color: #edb801 !important;
+}
+.ant-menu-submenu-arrow:hover {
+  color: #edb801 !important;
+}
+
+.ant-menu-submenu-arrow {
+  color: #fff !important;
+}
+
+.ant-menu-submenu-selected {
+  color: #edb801 !important;
+}
+
+.ant-menu-submenu-title:hover {
+  color: #edb801 !important;
+}
+
+.ant-layout,
+.appFooter {
+  background: #f4f1ed45 !important;
+}
+
+.ant-layout-footer {
+  padding: 11px 25px !important;
+}
+
+.info-text {
+  font-size: 14px;
+}
+
+.standard-dropdown-width {
+  width: 150px;
+}
+
+.standard-input-width {
+  width: 160px;
+}
+
+.ml-10 {
+  margin-left: 10px !important;
+}
+
+.ml-20 {
+  margin-left: 20px !important;
+}
+
+.datepicker-label {
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.billing-menu-datelabel {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.login-form-forgot {
+  cursor: pointer;
+  width: fit-content;
+}
+
+.fallback-view {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 150px);
+  overflow: hidden !important;
+  align-items: center;
+}
+
+.loader-div {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: -30px;
+}
+
+.fallback-view img {
+  margin-bottom: 10px;
+}
+
+.table-striped-rows tr:nth-child(2n) td {
+  background-color: #f5f5f5;
+}
+
+a {
+  text-decoration: none !important;
+}
+/* .table-striped-rows thead {
+  background-color: #f1f1f1;
+} */
+
+/*Styles for scroll bar*/
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.6) rgba(156, 156, 156, 0);
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #0015295b;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.295);
+  border-radius: 0px;
+  border: rgba(0, 0, 0, 0.6);
+}

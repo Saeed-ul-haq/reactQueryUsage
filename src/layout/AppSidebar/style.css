@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Poppins;
+  src: url("assets/fonts/Poppins-Regular.ttf");
+}
+
+.left-navigation-bar {
+  height: calc(100vh - 75px);
+  min-height: calc(100vh - 75px);
+  background: #8c1007;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.left-navigation-bar .ant-layout-sider {
+  height: 100% !important;
+}
+
+.ant-menu-item a,
+.ant-menu-item a:hover {
+  color: white !important;
+  font-family: "Poppins";
+}
+.ant-layout-sider {
+  background: transparent !important;
+}

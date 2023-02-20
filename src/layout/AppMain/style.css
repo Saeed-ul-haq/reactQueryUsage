@@ -1,0 +1,11 @@
+.app-main {
+  height: 100vh;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.app-content {
+  padding: 30px;
+  height: calc(100vh - 75px);
+  overflow: auto;
+}

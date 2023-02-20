@@ -1,0 +1,11 @@
+.ant-spin-dot-item {
+  background: #8c1007 !important;
+}
+
+.ant-table-thead > tr > th {
+  font-weight: bold;
+}
+/* 
+.ant-pagination-options-quick-jumper > input {
+  display: none !important;
+} */
